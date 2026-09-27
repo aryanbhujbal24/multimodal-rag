@@ -1,0 +1,5 @@
+{"question": "Why does downsampling in the backbone hurt small object detection?", "gold_pages": [1], "gold_source": "synthetic_paper", "reference": "Small objects occupy few pixels and downsampling removes the little signal that remains."}
+{"question": "What controls duplicate detections at tile borders?", "gold_pages": [1], "gold_source": "synthetic_paper", "reference": "The tile overlap parameter."}
+{"question": "What are the three stages shown in the architecture diagram?", "gold_pages": [2], "gold_source": "synthetic_paper", "reference": "Backbone, neck and head.", "needs_figure": true}
+{"question": "How are detections associated across frames?", "gold_pages": [2], "gold_source": "synthetic_paper", "reference": "Using an intersection-over-union cost and a Kalman filter."}
+{"question": "How is velocity estimated?", "gold_pages": [3], "gold_source": "synthetic_paper", "reference": "From consecutive track positions and the frame rate."}

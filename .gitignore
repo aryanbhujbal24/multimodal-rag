@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+data/corpus/*.pdf
+data/figures/*.png
+data/index/*
+
+# keep the directory structure on a fresh clone
+!data/**/.gitkeep
+data/sample/
+eval/results.md
+.pytest_cache/
